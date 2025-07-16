@@ -19,6 +19,9 @@ if __name__ == '__main__':
     p.add_argument('-r', '--happy', dest='happy', action='store_true', default=False, help='generate happy results (default: False)')
     p.add_argument('-m', '--markdown', dest='markdown', action='store_true', default=False, help='generate markdown summaries (default: False)')
 
+    # profile is required
+    p.add_argument('--profile', dest='profile', default=None, required=True, help='run the commands using a provided snakemake profile')
+
     args = p.parse_args()
 
     #generate all the targets from the above commands
@@ -44,7 +47,7 @@ if __name__ == '__main__':
         '--use-singularity', '--singularity-args "-B /pbi -B /home --cleanenv"',
         '--jobs', '1000',
         #things we need to pass/configure
-        '--profile', SNAKEMAKE_PROFILE,
+        '--profile', args.profile,
         '--snakefile', SNAKEFILE
     ]
 

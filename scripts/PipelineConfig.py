@@ -3,7 +3,6 @@ import os
 
 # constants that set up root for a lot of things
 PROJECT_DIR = os.path.dirname(os.path.dirname(__file__))
-SNAKEMAKE_PROFILE = f'{PROJECT_DIR}/profile_link'
 
 #anything derived from the root config
 RULES_FOLDER = f'{PROJECT_DIR}/rules'
