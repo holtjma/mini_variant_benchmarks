@@ -44,7 +44,7 @@ if __name__ == '__main__':
         '--printshellcmds',
         '--keep-going',
         '--use-conda',
-        '--use-singularity', '--singularity-args "-B /pbi -B /home --cleanenv"',
+        '--use-singularity', f'--singularity-args "-B {PROJECT_DIR} --cleanenv"',
         '--jobs', '1000',
         #things we need to pass/configure
         '--profile', args.profile,

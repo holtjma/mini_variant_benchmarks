@@ -12,7 +12,8 @@ This repo also contains the various scripts and snakemake processes required to 
 
 ## Running the pipeline yourself
 All outputs for the pipeline are distributed as part of this repo.
-However, if you wish to run it yourself, the following steps will guide you through setting up and running the pipeline:
+However, if you wish to run it yourself, the following steps will guide you through setting up and running the pipeline.
+Note that both [conda](https://docs.conda.io/projects/conda/en/stable/user-guide/install/index.html) and Singularity are required to run this process.
 
 1. Clone this repository to your local compute infrastructure:
 ```bash
