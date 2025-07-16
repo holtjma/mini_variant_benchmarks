@@ -150,13 +150,11 @@ rule happy:
         call_regions="{pipeline}/examples/{example}/inputs/regions.bed",
         truth_vcf="{pipeline}/examples/{example}/preprocessing/truth.vcf.gz",
         query_vcf="{pipeline}/examples/{example}/preprocessing/query.vcf.gz",
-        #sdf="/pbi/flash/wrowell/workflow_resources/reference/human_GRCh38_no_alt_analysis_set.sdf"
     output:
         summary_fn="{pipeline}/examples/{example}/happy/happy.summary.csv"
     params:
         out_prefix="{pipeline}/examples/{example}/happy/happy"
-    #singularity: "docker://pkrusche/hap.py:v0.3.9"
-    singularity: HAPPY_IMAGE
+    singularity: "docker://pkrusche/hap.py:v0.3.9"
     resources:
         mem_mb=4*1024,
         runtime=10 #minutes
