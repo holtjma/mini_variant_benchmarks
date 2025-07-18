@@ -1,4 +1,4 @@
-# Example `representation_mismatch_004`
+# Example `representation_match_003`
 ## Reference sequences
 ```
 >mock
