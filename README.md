@@ -3,6 +3,8 @@ This repository contains several miniaturized variant benchmark examples compari
 The examples are a mixture of A) artificially generated variant sets to demonstrate a key difference between the tools and B) real examples that are usually more complicated.
 This repo also contains the various scripts and snakemake processes required to reproduce the analysis.
 
+To jump straight to some examples, look in [examples.md](examples.md).
+
 ## Repo layout
 * `bin` - Binary files we distribute for reproducibility
 * `conda_envs` - All conda environments required to re-run this pipeline
