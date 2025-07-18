@@ -1,0 +1,17 @@
+compare_label	comparison	region_label	filter	variant_type	truth_total	truth_tp	truth_fn	query_total	query_tp	query_fp	metric_recall	metric_precision	metric_f1	truth_fn_gt	query_fp_gt
+compare	GT	ALL	ALL	ALL	4	4	0	4	4	0	1.0	1.0	1.0	0	0
+compare	GT	ALL	ALL	Snv	2	2	0	2	2	0	1.0	1.0	1.0	0	0
+compare	GT	ALL	ALL	Deletion	2	2	0	2	2	0	1.0	1.0	1.0	0	0
+compare	GT	ALL	ALL	JointIndel	2	2	0	2	2	0	1.0	1.0	1.0	0	0
+compare	HAP	ALL	ALL	ALL	6	6	0	6	6	0	1.0	1.0	1.0		
+compare	HAP	ALL	ALL	Snv	4	4	0	3	3	0	1.0	1.0	1.0		
+compare	HAP	ALL	ALL	Deletion	2	2	0	3	3	0	1.0	1.0	1.0		
+compare	HAP	ALL	ALL	JointIndel	2	2	0	3	3	0	1.0	1.0	1.0		
+compare	WEIGHTED_HAP	ALL	ALL	ALL	16	16	0	15	15	0	1.0	1.0	1.0		
+compare	WEIGHTED_HAP	ALL	ALL	Snv	4	4	0	3	3	0	1.0	1.0	1.0		
+compare	WEIGHTED_HAP	ALL	ALL	Deletion	12	12	0	12	12	0	1.0	1.0	1.0		
+compare	WEIGHTED_HAP	ALL	ALL	JointIndel	12	12	0	12	12	0	1.0	1.0	1.0		
+compare	BASEPAIR	ALL	ALL	ALL	30	30	0	30	30	0	1.0	1.0	1.0		
+compare	BASEPAIR	ALL	ALL	Snv	8	7	1	6	6	0	0.875	1.0	0.9333333333333333		
+compare	BASEPAIR	ALL	ALL	Deletion	24	23	1	24	24	0	0.9583333333333334	1.0	0.9787234042553191		
+compare	BASEPAIR	ALL	ALL	JointIndel	24	23	1	24	24	0	0.9583333333333334	1.0	0.9787234042553191		

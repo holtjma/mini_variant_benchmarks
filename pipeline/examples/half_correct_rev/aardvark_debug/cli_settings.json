@@ -1,0 +1,21 @@
+{
+  "aardvark_version": "0.7.4-6efe549",
+  "reference_fn": "/home/UNIXHOME/mholt/projects/mini_variant_benchmarks/pipeline/examples/half_correct_rev/inputs/reference.fa",
+  "truth_vcf_filename": "/home/UNIXHOME/mholt/projects/mini_variant_benchmarks/pipeline/examples/half_correct_rev/preprocessing/truth.vcf.gz",
+  "query_vcf_filename": "/home/UNIXHOME/mholt/projects/mini_variant_benchmarks/pipeline/examples/half_correct_rev/preprocessing/query.vcf.gz",
+  "regions": "/home/UNIXHOME/mholt/projects/mini_variant_benchmarks/pipeline/examples/half_correct_rev/inputs/regions.bed",
+  "stratifications": null,
+  "output_folder": "/home/UNIXHOME/mholt/projects/mini_variant_benchmarks/pipeline/examples/half_correct_rev/aardvark",
+  "debug_folder": "/home/UNIXHOME/mholt/projects/mini_variant_benchmarks/pipeline/examples/half_correct_rev/aardvark_debug",
+  "compare_label": "compare",
+  "truth_sample": "truth",
+  "query_sample": "query",
+  "min_variant_gap": 50,
+  "disable_variant_trimming": false,
+  "max_edit_distance": 5000,
+  "enable_exact_shortcut": false,
+  "threads": 1,
+  "verbosity": 0,
+  "skip_blocks": 0,
+  "take_blocks": 18446744073709551615
+}

@@ -1,0 +1,6 @@
+.oracle_jre_usage
+.snakemake
+pipeline/examples/*/benchmark
+pipeline/examples/*/logs
+profile_link
+scripts/__pycache__

@@ -1,0 +1,8 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##contig=<ID=mock,length=125>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	truth
+mock	64	.	AAT	A	.	.	.	GT	0|1
+mock	66	.	TA	T,*	.	.	.	GT	1|2
+mock	67	.	A	T,*	.	.	.	GT	2|1
+mock	75	.	A	T	.	.	.	GT	1|0

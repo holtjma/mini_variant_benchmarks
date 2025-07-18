@@ -1,0 +1,21 @@
+compare_label	comparison	region_label	filter	variant_type	truth_total	truth_tp	truth_fn	query_total	query_tp	query_fp	metric_recall	metric_precision	metric_f1	truth_fn_gt	query_fp_gt
+compare	GT	ALL	ALL	ALL	14	10	4	11	11	0	0.7142857142857143	1.0	0.8333333333333333	0	0
+compare	GT	ALL	ALL	Snv	9	5	4	8	8	0	0.5555555555555556	1.0	0.7142857142857143	0	0
+compare	GT	ALL	ALL	Insertion	3	3	0	3	3	0	1.0	1.0	1.0	0	0
+compare	GT	ALL	ALL	Deletion	2	2	0	0	0	0	1.0			0	0
+compare	GT	ALL	ALL	JointIndel	5	5	0	3	3	0	1.0	1.0	1.0	0	0
+compare	HAP	ALL	ALL	ALL	15	11	4	14	14	0	0.7333333333333333	1.0	0.846153846153846		
+compare	HAP	ALL	ALL	Snv	9	5	4	9	9	0	0.5555555555555556	1.0	0.7142857142857143		
+compare	HAP	ALL	ALL	Insertion	4	4	0	5	5	0	1.0	1.0	1.0		
+compare	HAP	ALL	ALL	Deletion	2	2	0	0	0	0	1.0				
+compare	HAP	ALL	ALL	JointIndel	6	6	0	5	5	0	1.0	1.0	1.0		
+compare	WEIGHTED_HAP	ALL	ALL	ALL	29	25	4	21	21	0	0.8620689655172413	1.0	0.9259259259259259		
+compare	WEIGHTED_HAP	ALL	ALL	Snv	9	5	4	9	9	0	0.5555555555555556	1.0	0.7142857142857143		
+compare	WEIGHTED_HAP	ALL	ALL	Insertion	16	16	0	12	12	0	1.0	1.0	1.0		
+compare	WEIGHTED_HAP	ALL	ALL	Deletion	4	4	0	0	0	0	1.0				
+compare	WEIGHTED_HAP	ALL	ALL	JointIndel	20	20	0	12	12	0	1.0	1.0	1.0		
+compare	BASEPAIR	ALL	ALL	ALL	50	42	8	42	42	0	0.84	1.0	0.9130434782608696		
+compare	BASEPAIR	ALL	ALL	Snv	18	10	8	18	18	0	0.5555555555555556	1.0	0.7142857142857143		
+compare	BASEPAIR	ALL	ALL	Insertion	32	28	4	24	24	0	0.875	1.0	0.9333333333333333		
+compare	BASEPAIR	ALL	ALL	Deletion	8	5	3	0	0	0	0.625				
+compare	BASEPAIR	ALL	ALL	JointIndel	40	33	7	24	24	0	0.825	1.0	0.9041095890410958		
