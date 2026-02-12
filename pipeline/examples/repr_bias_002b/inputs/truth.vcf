@@ -2,5 +2,5 @@
 ##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
 ##contig=<ID=mock,length=150>
 #CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	truth
-mock	68	.	AT	A	40	.	.	GT	1/1
-mock	73	.	T	A	40	.	.	GT	1/1
+mock	51	.	AT	A	40	.	.	GT	1/1
+mock	56	.	T	A	40	.	.	GT	1/1
